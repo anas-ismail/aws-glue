@@ -8,7 +8,7 @@ Script takes loads data from a JDBC source into redshift while maintaining check
 Glue ETL Job does not support incremental load (Job bookmarks in Glue's language) for any source other than S3 and I was unable to find any implementation over the internet to achieve it.
 
 ## Architecture Diagram
-
+[[https://github.com/anas-ismail/aws-glue/blob/master/images/architecture-diagram.png|alt=architecture-diagram]]
 
 ## Step By Step Guide
 1. Setup the Source (MySql) connection in AWS Glue console
